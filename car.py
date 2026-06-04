@@ -10,7 +10,7 @@ st.title("🚗 Car Price Prediction Dashboard")
 st.write("Predict the estimated price of a car")
 
 # Load Dataset
-df = pd.read_csv("carprice.csv"))
+df = pd.read_csv("carprice.csv")
 
 # Cleaning
 df.replace('?', np.nan, inplace=True)
